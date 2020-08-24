@@ -21,7 +21,7 @@ public class TimeTableConstraintProvider implements ConstraintProvider {
      *  Hard constraints are weighted against other hard constraints. Soft constraints are weighted too, against
      *  other soft constraints.
      *  Hard Constraints alwais outweight Soft Constraints, regardless of their respective weights.
-     *  
+     *
      * @param constraintFactory
      * @return
      */
